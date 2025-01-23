@@ -7,5 +7,9 @@
     "dev": "node src/server.js"
   },
   "author": "adnan <nuradnanchowdhury015@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.9",
+    "typescript": "^5.7.3"
+  }
 }
