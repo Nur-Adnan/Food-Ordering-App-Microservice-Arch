@@ -4,12 +4,15 @@
   "description": "A user management service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "author": "adnan <nuradnanchowdhury015@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.10.9",
+    "prettier": "3.4.2",
     "typescript": "^5.7.3"
   }
 }
